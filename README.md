@@ -93,6 +93,6 @@ This project is open-source and available under the MIT License.
 Contact
 For any questions or feedback, please contact:
 
-Email: info@etfinsight.com (Placeholder)
+Email: brandon37.brooks@gmail.com
 
 GitHub: bbrooks37
