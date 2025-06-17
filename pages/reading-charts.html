@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Charts - ETF Investing Guide</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to custom stylesheet (relative path from this page) -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Navigation Bar -->
+    <nav class="bg-gradient-to-r from-blue-600 to-indigo-700 p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="../index.html" class="text-white text-3xl font-bold mb-4 md:mb-0 hover:text-blue-200 transition duration-300">ETF Insight</a>
+            <div class="flex flex-wrap justify-center space-x-2 md:space-x-4">
+                <a href="../index.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Home</a>
+                <a href="what-is-etf.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">What is an ETF?</a>
+                <a href="reading-charts.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Reading Charts</a>
+                <a href="simulate-investing.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Simulate/Quiz</a>
+                <a href="glossary.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Glossary</a>
+                <a href="about.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">About & Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - Reading Charts Page -->
+    <main class="flex-grow container mx-auto p-4 md:p-8">
+        <section id="reading-charts" class="bg-white p-8 rounded-xl shadow-lg mb-8">
+            <h1 class="text-4xl font-extrabold text-blue-800 mb-6 text-center">Mastering Investment Charts</h1>
+            <div class="max-w-4xl mx-auto text-lg text-gray-700 space-y-6">
+                <p>
+                    Investment charts, particularly candlestick charts, are powerful tools that provide a visual representation of price movements over time. Learning to interpret them can give you valuable insights into market sentiment and potential future trends.
+                </p>
+
+                <h2 class="text-3xl font-bold text-blue-700 mt-8 mb-4">Understanding Candlestick Charts:</h2>
+                <p>
+                    A candlestick chart displays the high, low, open, and close prices of a security for a specific period (e.g., a day, a week, an hour).
+                </p>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-3">Parts of a Candlestick:</h3>
+                    <ul class="list-disc list-inside space-y-2 pl-4">
+                        <li>
+                            <strong>Body:</strong> The thick part of the candlestick, representing the range between the opening and closing prices.
+                            <ul class="list-circle list-inside ml-6 mt-1">
+                                <li>
+                                    <span class="font-bold text-green-600">Green/White Body:</span> Close price was higher than the open price (bullish - price increased).
+                                </li>
+                                <li>
+                                    <span class="font-bold text-red-600">Red/Black Body:</span> Close price was lower than the open price (bearish - price decreased).
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>Wicks (or Shadows):</strong> The thin lines extending above and below the body.
+                            <ul class="list-circle list-inside ml-6 mt-1">
+                                <li>
+                                    <strong>Upper Wick:</strong> Represents the highest price reached during the period.
+                                </li>
+                                <li>
+                                    <strong>Lower Wick:</strong> Represents the lowest price reached during the period.
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- Updated image source to use the uploaded candlestick.png -->
+                    <img src="../assets/images/candlestick.png" alt="Candlestick Chart Example" class="w-full h-auto mt-6 rounded-lg shadow-inner">
+                    <p class="text-sm text-gray-600 mt-2 text-center"><em>Figure: Basic structure and common patterns of bullish, bearish, and neutral candlesticks.</em></p>
+                </div>
+
+                <h2 class="text-3xl font-bold text-blue-700 mt-8 mb-4">Volume:</h2>
+                <p>
+                    Volume bars, typically displayed below the price chart, indicate the number of shares or contracts traded during a specific period.
+                </p>
+                <ul class="list-disc list-inside space-y-2 pl-4">
+                    <li>
+                        <strong>High Volume:</strong> Suggests strong conviction behind the price movement. A large price move on high volume is more significant than the same move on low volume.
+                    </li>
+                    <li>
+                        <strong>Low Volume:</strong> May indicate a lack of interest or indecision in the market.
+                    </li>
+                </ul>
+                <img src="https://placehold.co/600x200/ffe0b2/fb8c00?text=Volume+Bars+Example" alt="Volume Bars Example" class="w-full h-auto mt-6 rounded-lg shadow-inner">
+                <p class="text-sm text-gray-600 mt-2 text-center"><em>Figure: Example of volume bars below a price chart.</em></p>
+
+                <h2 class="text-3xl font-bold text-blue-700 mt-8 mb-4">Simple Chart Patterns (for beginners):</h2>
+                <ul class="list-disc list-inside space-y-3 pl-4">
+                    <li>
+                        <strong>Uptrend:</strong> Characterized by higher highs and higher lows. This indicates that the price is generally moving upwards.
+                    </li>
+                    <li>
+                        <strong>Downtrend:</strong> Characterized by lower highs and lower lows. This indicates that the price is generally moving downwards.
+                    </li>
+                    <li>
+                        <strong>Sideways/Consolidation:</strong> When the price moves within a relatively narrow range, indicating indecision or accumulation/distribution before a larger move.
+                    </li>
+                </ul>
+                <img src="https://placehold.co/600x300/dcedc8/689f38?text=Trend+Lines+Example" alt="Trend Lines Example" class="w-full h-auto mt-6 rounded-lg shadow-inner">
+                <p class="text-sm text-gray-600 mt-2 text-center"><em>Figure: Visual representation of uptrends, downtrends, and consolidation.</em></p>
+
+                <p class="mt-8">
+                    This is just a basic introduction to chart reading. As you gain experience, you can explore more advanced indicators and patterns. The key is consistent practice and understanding that no single indicator guarantees future performance.
+                </p>
+                <div class="text-center mt-10">
+                    <a href="simulate-investing.html" class="bg-gradient-to-r from-red-500 to-orange-600 hover:from-red-600 hover:to-orange-700 text-white font-bold py-3 px-8 rounded-full shadow-lg text-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                        Test Your Knowledge: Simulate & Quiz
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6 mt-auto">
+        <div class="container mx-auto text-center text-sm">
+            &copy; 2024 ETF Insight. All rights reserved. | <a href="#" class="text-blue-400 hover:underline">Privacy Policy</a> | <a href="#" class="text-blue-400 hover:underline">Terms of Service</a>
+            <p class="mt-2">Disclaimer: This content is for educational purposes only and should not be considered financial advice. Consult with a qualified financial professional before making any investment decisions.</p>
+        </div>
+    </footer>
+    <!-- Link to custom JavaScript file -->
+    <script src="../js/script.js"></script>
+</body>
+</html>

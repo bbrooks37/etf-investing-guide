@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETF Investing Guide - Home</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+    <!-- Navigation Bar -->
+    <nav class="bg-gradient-to-r from-blue-600 to-indigo-700 p-4 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <a href="index.html" class="text-white text-3xl font-bold mb-4 md:mb-0 hover:text-blue-200 transition duration-300">ETF Insight</a>
+            <div class="flex flex-wrap justify-center space-x-2 md:space-x-4">
+                <a href="index.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Home</a>
+                <a href="pages/what-is-etf.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">What is an ETF?</a>
+                <a href="pages/reading-charts.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Reading Charts</a>
+                <a href="pages/simulate-investing.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Simulate/Quiz</a>
+                <a href="pages/glossary.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">Glossary</a>
+                <a href="pages/about.html" class="nav-link bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg shadow-md transition duration-300">About & Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Area - Home Page -->
+    <main class="flex-grow container mx-auto p-4 md:p-8">
+        <section id="home" class="bg-white p-8 rounded-xl shadow-lg mb-8">
+            <h1 class="text-5xl font-extrabold text-blue-800 mb-6 text-center animate-fade-in-down">Unlock Your Investment Potential with ETFs</h1>
+            <p class="text-lg text-gray-700 mb-6 leading-relaxed text-center max-w-3xl mx-auto animate-fade-in-up">
+                Welcome to ETF Insight, your comprehensive guide to understanding Exchange Traded Funds (ETFs) and mastering the art of reading investment charts. We believe that informed investing doesn't require endless hours of study. Our program is designed to empower average users to feel more involved and confident in their investment journey.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out">
+                    <h2 class="text-3xl font-bold text-blue-700 mb-4 flex items-center">
+                        <svg class="w-8 h-8 mr-3 text-blue-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        Why ETFs?
+                    </h2>
+                    <p class="text-gray-700 text-lg">
+                        ETFs offer diversification, lower costs, and flexibility, making them an excellent choice for new and experienced investors alike. Learn how these powerful investment vehicles can help you achieve your financial goals.
+                    </p>
+                </div>
+                <div class="bg-indigo-50 p-6 rounded-lg shadow-md transform hover:scale-105 transition duration-300 ease-in-out">
+                    <h2 class="text-3xl font-bold text-indigo-700 mb-4 flex items-center">
+                        <svg class="w-8 h-8 mr-3 text-indigo-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path></svg>
+                        Mastering Charts
+                    </h2>
+                    <p class="text-gray-700 text-lg">
+                        Demystify stock charts. Our guide breaks down candlestick patterns, volume, and key indicators into simple, actionable insights, helping you make smarter investment decisions.
+                    </p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="pages/what-is-etf.html" class="bg-gradient-to-r from-green-500 to-teal-600 hover:from-green-600 hover:to-teal-700 text-white font-bold py-3 px-8 rounded-full shadow-lg text-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                    Start Your Learning Journey
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white p-6 mt-auto">
+        <div class="container mx-auto text-center text-sm">
+            &copy; 2024 ETF Insight. All rights reserved. | <a href="#" class="text-blue-400 hover:underline">Privacy Policy</a> | <a href="#" class="text-blue-400 hover:underline">Terms of Service</a>
+            <p class="mt-2">Disclaimer: This content is for educational purposes only and should not be considered financial advice. Consult with a qualified financial professional before making any investment decisions.</p>
+        </div>
+    </footer>
+    <!-- Link to custom JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
